@@ -1,0 +1,25 @@
+﻿<Window x:Class="ClientRdc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientRdc"
+        xmlns:view="clr-namespace:ClientRdc.View"
+        xmlns:vm="clr-namespace:ClientRdc.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <TabControl>
+            <TabItem Header="Shared Desctop">
+                <view:ClientSharedView DataContext="{Binding ClientShared}"/>
+            </TabItem>
+
+            <TabItem Header="Connect Desctop">
+                <view:ClientManagerView DataContext="{Binding ClientManager}"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

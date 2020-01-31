@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiRdc", "WebApiRdc\WebApiRdc.csproj", "{2D37CE69-91FC-40A2-8D69-AEF7A8579126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientRdc", "ClientRdc\ClientRdc.csproj", "{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenH264Lib", "OpenH264Lib\OpenH264Lib.vcxproj", "{B4FE105E-C607-40DC-A86B-AED03E14D18D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedEntity", "SharedEntity\SharedEntity.shproj", "{0208A454-3713-43B1-8BC2-431058ADFE8B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedEntity\SharedEntity.projitems*{0208a454-3713-43b1-8bc2-431058adfe8b}*SharedItemsImports = 13
+		SharedEntity\SharedEntity.projitems*{e2a4bc0b-8ac3-4ad9-a01c-8c22926b0428}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D37CE69-91FC-40A2-8D69-AEF7A8579126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D37CE69-91FC-40A2-8D69-AEF7A8579126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D37CE69-91FC-40A2-8D69-AEF7A8579126}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2D37CE69-91FC-40A2-8D69-AEF7A8579126}.Debug|x64.Build.0 = Debug|Any CPU
+		{2D37CE69-91FC-40A2-8D69-AEF7A8579126}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2D37CE69-91FC-40A2-8D69-AEF7A8579126}.Debug|x86.Build.0 = Debug|Any CPU
+		{2D37CE69-91FC-40A2-8D69-AEF7A8579126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D37CE69-91FC-40A2-8D69-AEF7A8579126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D37CE69-91FC-40A2-8D69-AEF7A8579126}.Release|x64.ActiveCfg = Release|Any CPU
+		{2D37CE69-91FC-40A2-8D69-AEF7A8579126}.Release|x64.Build.0 = Release|Any CPU
+		{2D37CE69-91FC-40A2-8D69-AEF7A8579126}.Release|x86.ActiveCfg = Release|Any CPU
+		{2D37CE69-91FC-40A2-8D69-AEF7A8579126}.Release|x86.Build.0 = Release|Any CPU
+		{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}.Debug|x64.Build.0 = Debug|Any CPU
+		{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}.Debug|x86.Build.0 = Debug|Any CPU
+		{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}.Release|x64.ActiveCfg = Release|Any CPU
+		{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}.Release|x64.Build.0 = Release|Any CPU
+		{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}.Release|x86.ActiveCfg = Release|Any CPU
+		{E2A4BC0B-8AC3-4AD9-A01C-8C22926B0428}.Release|x86.Build.0 = Release|Any CPU
+		{B4FE105E-C607-40DC-A86B-AED03E14D18D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B4FE105E-C607-40DC-A86B-AED03E14D18D}.Debug|x64.ActiveCfg = Debug|x64
+		{B4FE105E-C607-40DC-A86B-AED03E14D18D}.Debug|x64.Build.0 = Debug|x64
+		{B4FE105E-C607-40DC-A86B-AED03E14D18D}.Debug|x86.ActiveCfg = Debug|Win32
+		{B4FE105E-C607-40DC-A86B-AED03E14D18D}.Debug|x86.Build.0 = Debug|Win32
+		{B4FE105E-C607-40DC-A86B-AED03E14D18D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B4FE105E-C607-40DC-A86B-AED03E14D18D}.Release|x64.ActiveCfg = Release|x64
+		{B4FE105E-C607-40DC-A86B-AED03E14D18D}.Release|x64.Build.0 = Release|x64
+		{B4FE105E-C607-40DC-A86B-AED03E14D18D}.Release|x86.ActiveCfg = Release|Win32
+		{B4FE105E-C607-40DC-A86B-AED03E14D18D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A1CE34B-6AA9-4E1D-9CB8-A94BEC3B63C4}
+	EndGlobalSection
+EndGlobal
